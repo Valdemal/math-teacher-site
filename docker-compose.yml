@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  vue-nginx:
+    container_name: teacher-site-vue-nginx
+    build: .
+    ports:
+      - "80:80"
+    restart: always
