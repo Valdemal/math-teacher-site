@@ -1,11 +1,10 @@
 <template>
-  <div class="container">
-    Главная информация
-  </div>
+  <MainSection/>
+  <PortfolioSection/>
+  <ForStudentSection/>
 </template>
-<style>
-.container {
-  height: 900px;
-  background-color: #F1EFF0;
-}
-</style>
+<script setup>
+import MainSection from "@/components/MainSection.vue";
+import PortfolioSection from "@/components/PortfolioSection.vue";
+import ForStudentSection from "@/components/ForStudentSection.vue";
+</script>

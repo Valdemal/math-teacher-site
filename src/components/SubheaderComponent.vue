@@ -1,53 +1,46 @@
 <template>
-  <div class="subheader">
+  <CentralContainer class="subheader">
     <div class="subheader-inner">
       <h2>Сайт учителя математики</h2>
-      <div class="links">
-        <div class="links-inner">
+      <CentralContainer>
+        <div class="links">
           <a href="#">Главная</a>
           <a href="#">Портфолио</a>
           <a href="#">Ученикам</a>
         </div>
-      </div>
+      </CentralContainer>
     </div>
-  </div>
+  </CentralContainer>
 </template>
 
 <style scoped>
 
 .subheader {
-  display: flex;
   padding:  69px 162px 69px 260px;
 }
 
-.subheader h2 {
+h2 {
   font-size: 38px;
 }
 
 .subheader-inner {
   width: 100%;
   justify-content: space-between;
-  margin: auto;
   display: flex;
 }
 
 .links {
   display: flex;
-}
-
-.links-inner {
-  display: flex;
   justify-content: space-between;
-  margin: auto;
   font-size: 20px;
   font-weight: bold;
 }
 
-.links-inner a {
+.links a {
   padding: 0 20px 0 20px;
 }
 
-.links-inner a:hover {
+.links a:hover {
   color: #EFD372;
 }
 
@@ -60,3 +53,6 @@ footer .subheader a {
   color: #FFFFFF;
 }
 </style>
+<script setup>
+import CentralContainer from "@/components/CentralContainer.vue";
+</script>
