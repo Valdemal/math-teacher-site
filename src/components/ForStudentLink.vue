@@ -4,7 +4,7 @@
       <img :src="image" :alt="name">
     </div>
     <central-container class="details">
-      <p>{{ name }}</p>
+        <p>{{ name }}</p>
     </central-container>
   </div>
 </template>
@@ -12,7 +12,9 @@
 <style scoped>
 
 .links-item {
-  display: inline-grid;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
   margin: 10px;
   cursor: pointer;
 }
@@ -20,17 +22,21 @@
 .details {
   font-size: 25px;
   font-weight: bold;
-
-  height: 90px;
+  margin: 0;
+  background-color: #F9F8F8;
+  height: 98px;
+  color: #274C5B;
+  border-radius: 0 0 30px 30px;
+  padding-left: 20px;
 }
 
-p {
+.details p {
+  width: 100%;
   text-align: left;
-  margin: 0;
 }
 
 .image-container {
-  border-radius: 30px;
+  border-radius: 30px 30px 0 0;
   overflow: hidden;
 }
 
@@ -42,9 +48,9 @@ img {
 
 .links-item:hover img {
   scale: 110%;
+
 }
 </style>
-
 <script>
 
 import CentralContainer from "@/components/CentralContainer.vue";
