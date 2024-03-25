@@ -4,9 +4,9 @@
       <h2>Сайт учителя математики</h2>
       <CentralContainer>
         <div class="links">
-          <a href="#">Главная</a>
-          <a href="#">Портфолио</a>
-          <a href="#">Ученикам</a>
+          <router-link to="/#main-section">Главная</router-link>
+          <router-link to="/#portfolio-section">Портфолио</router-link>
+          <router-link to="/#for-student-section">Ученикам</router-link>
         </div>
       </CentralContainer>
     </div>
