@@ -2,6 +2,7 @@ import {createRouter, createWebHistory} from 'vue-router'
 import HomeView from "@/views/HomeView.vue";
 import BaseLayout from "@/layouts/BaseLayout.vue";
 import portfolio from "@/router/portfolio.js";
+import for_students from "@/router/for_students.js";
 
 export default createRouter({
     routes: [
@@ -15,6 +16,7 @@ export default createRouter({
                     component: HomeView
                 },
                 portfolio,
+                for_students,
             ]
         }
     ],

@@ -1,4 +1,5 @@
 <template>
+  <router-link :to="{name: link}">
   <div class="links-item">
     <div class="image-container">
       <img :src="image" :alt="name">
@@ -7,6 +8,7 @@
       <p>{{ name }}</p>
     </central-container>
   </div>
+  </router-link>
 </template>
 
 <style scoped>
@@ -51,7 +53,7 @@ import CentralContainer from "@/components/CentralContainer.vue";
 
 export default {
   components: {CentralContainer},
-  props: ['name', 'image']
+  props: ['name', 'image', 'link']
 }
 
 </script>

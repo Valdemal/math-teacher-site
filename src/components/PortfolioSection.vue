@@ -3,9 +3,9 @@
     <template #heading>Портфолио</template>
     <template #content>
       <links-container>
-        <PortfolioLink name="Результаты учеников" image="/src/assets/img.png"/>
-        <PortfolioLink name="Достижения учащихся" image="/src/assets/img.png"/>
-        <PortfolioLink name="Педагогический опыт" image="/src/assets/img.png"/>
+        <PortfolioLink name="Результаты учеников" link="students-results" image="/src/assets/img.png"/>
+        <PortfolioLink name="Достижения учащихся" link="students-achievements" image="/src/assets/img.png"/>
+        <PortfolioLink name="Педагогический опыт" link="teaching-experience" image="/src/assets/img.png"/>
       </links-container>
     </template>
   </page-section>
