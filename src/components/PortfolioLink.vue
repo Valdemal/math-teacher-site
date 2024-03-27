@@ -1,9 +1,9 @@
 <template>
   <router-link :to="{name: link}">
   <div class="links-item">
-    <div class="image-container">
+    <central-container class="image-container">
       <img :src="image" :alt="name">
-    </div>
+    </central-container>
     <central-container class="details">
       <p>{{ name }}</p>
     </central-container>
@@ -34,6 +34,7 @@ p {
 .image-container {
   border-radius: 30px;
   overflow: hidden;
+  background-color: #274C5B;
 }
 
 img {
