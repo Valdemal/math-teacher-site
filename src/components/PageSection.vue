@@ -1,12 +1,14 @@
 <template>
-  <CentralContainer class="container">
-    <h3>
-      <slot name="heading"></slot>
-    </h3>
-    <div>
-      <slot name="content"></slot>
-    </div>
-  </CentralContainer>
+  <section>
+    <CentralContainer class="container">
+      <h3>
+        <slot name="heading"></slot>
+      </h3>
+      <div>
+        <slot name="content"></slot>
+      </div>
+    </CentralContainer>
+  </section>
 </template>
 
 <style scoped>

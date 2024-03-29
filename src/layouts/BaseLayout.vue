@@ -9,8 +9,6 @@
     <SubheaderComponent/>
   </footer>
 </template>
-<style>
-</style>
 <script setup>
 import SubheaderComponent from "@/components/SubheaderComponent.vue";
 </script>

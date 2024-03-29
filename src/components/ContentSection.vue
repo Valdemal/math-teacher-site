@@ -1,11 +1,11 @@
 <template>
-  <div class="container">
+  <section>
     <slot></slot>
-  </div>
+  </section>
 </template>
 
 <style scoped>
-.container {
+section {
   margin: 69px 162px 69px 260px;
   color: #274C5B;
   font-size: 36px;

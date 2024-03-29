@@ -1,11 +1,8 @@
-<script setup>
-import TheBanner from "@/components/TheBanner.vue";
-</script>
-
 <template>
   <TheBanner>Достижения учащихся</TheBanner>
 </template>
 
-<style scoped>
+<script setup>
+import TheBanner from "@/components/TheBanner.vue";
+</script>
 
-</style>
