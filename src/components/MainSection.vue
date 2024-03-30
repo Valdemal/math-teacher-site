@@ -1,6 +1,6 @@
 <template>
   <section>
-    <title-component class="text"/>
+    <title-component class="title-component"/>
     <portrait-component/>
   </section>
 </template>
@@ -11,7 +11,7 @@ section {
   display: flex;
 }
 
-.text {
+.title-component {
   margin: auto auto auto 120px;
 }
 </style>
