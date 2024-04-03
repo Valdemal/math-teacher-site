@@ -25,7 +25,6 @@ export default {
 
       let offset = (image.clientWidth - container.clientWidth) / 2;
       image.style.transform = `translate(-${offset}px, -75px)`
-      console.log(image.style.transform)
     }
   }
 }

@@ -2,7 +2,7 @@
   <div class="container" ref="container">
     <div class="slider" ref="slider">
         <div class="title" ref="title">
-          <p>Учитель математики в Борисовской СОШ №1</p>
+          <p>Учитель математики в ОГБОУ "Борисовской СОШ"</p>
           <h2>
             Семенова<br/>
             Татьяна<br/>
