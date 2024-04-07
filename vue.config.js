@@ -1,6 +1,5 @@
 const {defineConfig} = require('@vue/cli-service')
 module.exports = defineConfig({
-  publicPath: `/math-teacher-site/`,
   transpileDependencies: true,
   configureWebpack: {
     module: {
