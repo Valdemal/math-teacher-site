@@ -1,5 +1,5 @@
 <template>
-  <TheBanner>Подготовка к ЕГЭ</TheBanner>
+  <TheBanner id="start">Подготовка к ЕГЭ</TheBanner>
   <ContentSection>
     <FileDownloadComponent
         :href="trigonometricEquationsFile"

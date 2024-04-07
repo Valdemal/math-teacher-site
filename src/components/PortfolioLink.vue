@@ -1,5 +1,5 @@
 <template>
-  <router-link :to="{name: link}">
+  <router-link :to="link">
   <div class="links-item">
     <central-container class="image-container">
       <img :src="image" :alt="name">

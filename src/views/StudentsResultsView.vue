@@ -1,5 +1,5 @@
 <template>
-  <TheBanner>Результаты учеников</TheBanner>
+  <TheBanner id="start">Результаты учеников</TheBanner>
   <ContentSection>
     <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquam aperiam asperiores cupiditate deserunt
       dolor doloribus, dolorum earum explicabo laboriosam nisi obcaecati pariatur praesentium quam quidem quis

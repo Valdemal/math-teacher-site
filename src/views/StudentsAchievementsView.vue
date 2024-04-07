@@ -1,5 +1,5 @@
 <template>
-  <TheBanner>Достижения учащихся</TheBanner>
+  <TheBanner id="start">Достижения учащихся</TheBanner>
 </template>
 
 <script setup>

@@ -3,9 +3,9 @@
     <template #heading>Ученикам</template>
     <template #content>
       <links-container>
-        <for-student-link name="Подготовка к ЕГЭ" link="ege-preparation" :image="egePreparationImage"/>
-        <for-student-link name="Подготовка к ОГЭ" link="oge-preparation" :image="ogePreparationImage"/>
-        <for-student-link name="Подготовка к конкурсам" link="competitions-preparation"
+        <for-student-link name="Подготовка к ЕГЭ" link="/ege-preparation#start" :image="egePreparationImage"/>
+        <for-student-link name="Подготовка к ОГЭ" link="/oge-preparation#start" :image="ogePreparationImage"/>
+        <for-student-link name="Подготовка к конкурсам" link="/competitions-preparation#start"
                           :image="competitionsPreparationImage"/>
       </links-container>
     </template>

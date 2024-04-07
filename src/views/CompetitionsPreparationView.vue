@@ -1,5 +1,5 @@
 <template>
-  <TheBanner>Подготовка к конкурсам</TheBanner>
+  <TheBanner id="start">Подготовка к конкурсам</TheBanner>
   <ContentSection>
     <FileDownloadComponent :href="competitionsTaskFile" download="Задача для конкурса.docx"
                            annotation="Задача для конкурса"/>

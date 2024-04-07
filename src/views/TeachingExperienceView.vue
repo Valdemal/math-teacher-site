@@ -1,5 +1,5 @@
 <template>
-  <TheBanner>Педагогический опыт</TheBanner>
+  <TheBanner id="start">Педагогический опыт</TheBanner>
   <ContentSection>
     <FileDownloadComponent
         :href="experience1" download="АПО Семенова Т.Д. 2023.doc"
