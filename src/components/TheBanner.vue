@@ -11,6 +11,8 @@
   height: 450px;
   position: relative;
   overflow: hidden;
+  border-top: #274C5B solid 2px;
+  border-bottom: #274C5B solid 2px;
 }
 
 img {

@@ -6,7 +6,7 @@
 
 <style scoped>
 section {
-  margin: 69px 162px 69px 260px;
+  margin: 69px 162px 69px 162px;
   color: #274C5B;
   font-size: 36px;
 }
